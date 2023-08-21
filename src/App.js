@@ -4,8 +4,9 @@ import axios from 'axios';
 import { Line } from 'react-chartjs-2';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
-import Login from './Login';
+
 import Login1 from './Login1';
+import Landing from './Componenets/Landing';
 import{
   Chart as ChartJs,
   LineElement,
@@ -236,7 +237,7 @@ function App() {
     //   <button onClick={downloadAsPdf}>Download Chart as PDF</button>
     // </div>
     <>
-    <Login1/>
+    <Landing/>
     </>
   );
 
