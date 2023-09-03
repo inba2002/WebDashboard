@@ -4,7 +4,7 @@ import Google from './Assets/googlelogo.png'
 
 const Login1 = () => {
   return (
-    <div class="w-full min-h-screen flex items-start' bg-gray-100">
+    <div class="w-full h-screen flex items-start' bg-gray-100">
       <div
         class="w-full relative flex flex-col bg-gradient-to-r from-transparent to-cyan-500  md:flex-row md:space-y-0"
       >
@@ -44,7 +44,7 @@ const Login1 = () => {
           >
             Sign in
           </button>
-          <button
+          {/* <button
             class="w-full border border-gray-300 text-md font-bold py-1.5 rounded-lg mb-6 hover:bg-blue-400 hover:text-white"
           >
             <img src={Google} alt="img" class="w-7 h-7 inline mr-2" />
@@ -53,14 +53,14 @@ const Login1 = () => {
           <div class=" font-regular text-center text-gray-900">
             Dont'have an account?
             <span class="font-bold text-black cursor-pointer">Sign up for free</span>
-          </div>
+          </div> */}
         </div>
         
         <div class="relative">
           <img
             src={Cover}
             alt="img"
-            class="bg-cover h-screen rounded-l-lg md:block object-cover"
+            class="bg-cover w-screen h-screen rounded-l-lg obje md:block object-cover"
           />
           
          
